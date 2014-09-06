@@ -31,6 +31,12 @@ Sets the text content of the editor to `value`.
 
 The CodeMirror editor instance.
 
+### `require('glsl-editor/css')`
+### `require('glsl-editor/theme')`
+
+Inlines the base CodeMirror CSS and a default theme respectively. Useful for
+just getting started quickly, but entirely optional.
+
 ## License
 
 MIT. See [LICENSE.md](http://github.com/hughsk/glsl-editor/blob/master/LICENSE.md) for details.
